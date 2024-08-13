@@ -2,8 +2,8 @@
 
 // Bank App
 
-// USER: the first letters of firstname and lastname
-// PIN: in property PIN
+//USER: the first letters of firstname and lastname
+//PIN: values in the PIN property of each object (account1, account2, account3, account4, account5)
 
 const account1 = {
   userName: 'Cecil Ireland', //login (ci)
@@ -412,7 +412,7 @@ logoImage.addEventListener('click', function () {
 logoImage.addEventListener('click', function () {
   [...document.querySelectorAll('.transactions__row')].forEach((row, i) => {
     if (i % 3 == 0) {
-      //каждая третья строка окрашивается
+      //every third line is colored by clicking on the card
       row.style.background = 'grey';
     }
   });
