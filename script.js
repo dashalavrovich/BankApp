@@ -2,7 +2,7 @@
 
 // Bank App
 
-// USER: the first letter of firstname and lastname
+// USER: the first letters of firstname and lastname
 // PIN: in property PIN
 
 const account1 = {
